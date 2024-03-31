@@ -2,7 +2,7 @@
 //  main.cpp
 //  Tic-Tac-Toe-Game-C++
 //
-//  Created by Sofiane Medhouny Laouina on 31/03/2024.
+//  Created by MEDLAO on 31/03/2024.
 //
 
 #include <iostream>
