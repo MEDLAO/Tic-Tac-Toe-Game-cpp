@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF3312412BB9C5080062B380 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3312402BB9C5080062B380 /* main.cpp */; };
+		BFFC3BEC2BBB07A700B27824 /* tictactoe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFC3BEA2BBB07A700B27824 /* tictactoe.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BF33123D2BB9C5080062B380 /* Tic-Tac-Toe-Game-C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tic-Tac-Toe-Game-C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3312402BB9C5080062B380 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BFFC3BEA2BBB07A700B27824 /* tictactoe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tictactoe.cpp; sourceTree = "<group>"; };
+		BFFC3BEB2BBB07A700B27824 /* tictactoe.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tictactoe.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BF3312402BB9C5080062B380 /* main.cpp */,
+				BFFC3BEA2BBB07A700B27824 /* tictactoe.cpp */,
+				BFFC3BEB2BBB07A700B27824 /* tictactoe.hpp */,
 			);
 			path = "Tic-Tac-Toe-Game-C++";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFC3BEC2BBB07A700B27824 /* tictactoe.cpp in Sources */,
 				BF3312412BB9C5080062B380 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
