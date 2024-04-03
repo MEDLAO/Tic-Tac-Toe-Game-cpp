@@ -28,4 +28,8 @@ void introduction()
     
     cout << "The 3x3 grid is shown below:\n\n";
     
+    cout << "     |     |      \n";
+    cout << "     |     |      \n";
+    cout << "     |     |      \n";
+    cout << "_______\n";
 }
