@@ -24,12 +24,18 @@ void introduction()
     cout << "***********\n";
     
     cout << "Player 1)  X\n";
-    cout << "Player 2)  O\n";
+    cout << "Player 2)  O\n\n";
     
     cout << "The 3x3 grid is shown below:\n\n";
     
     cout << "     |     |      \n";
+    cout << "  1  |  2  |  3   \n";
+    cout << "_____|_____|______\n";
     cout << "     |     |      \n";
+    cout << "  4  |  5  |  6   \n";
+    cout << "_____|_____|______\n";
     cout << "     |     |      \n";
-    cout << "_______\n";
+    cout << "  7  |  8  |  9   \n";
+    cout << "     |     |      \n\n";
+    
 }

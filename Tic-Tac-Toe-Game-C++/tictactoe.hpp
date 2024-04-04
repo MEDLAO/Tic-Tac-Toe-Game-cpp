@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
+void introduction();
+
 #endif /* tictactoe_hpp */
