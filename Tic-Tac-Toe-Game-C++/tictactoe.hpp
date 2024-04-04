@@ -11,5 +11,6 @@
 #include <stdio.h>
 
 void introduction();
+bool is_winner();
 
 #endif /* tictactoe_hpp */
