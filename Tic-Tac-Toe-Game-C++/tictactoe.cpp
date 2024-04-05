@@ -40,7 +40,7 @@ void introduction()
     
 }
 
-bool is_winner()
+bool isWinner()
 {
     bool winner = false;
     // checking the rows
@@ -80,4 +80,18 @@ bool is_winner()
     }
     
     return winner;
+}
+
+bool filledUp()
+{
+    bool filled = true;
+    
+    for (int i = 0; i<9; i++)
+    {
+        if (board[i]==" ")
+        {
+            filled = false;
+        }
+    }
+    return filled;
 }
