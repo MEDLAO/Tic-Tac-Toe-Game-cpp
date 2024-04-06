@@ -110,5 +110,22 @@ void draw()
     cout << "\n";
 }
 
-
+void setPosition()
+{
+    cout << "Player " << player << "'s (Enter : (1:9))";
+    while(!(cin>>position))
+    {
+        cout << "Please enter  a valid number between (1-9)" << endl;
+        cin.clear();
+        cin.ignore();
+    }
+    
+    while (board[position - 1] != " ")
+    {
+        cout << "Oops, that position is already filled\n Try again\n";
+        cout << "Player " << player << "'s turn (Enter 1:9): ";
+        cin >> position;
+        cout <<"\n";
+    }
+}
 
