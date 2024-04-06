@@ -13,5 +13,6 @@
 void introduction();
 bool is_winner();
 bool filledUp();
+void draw();
 
 #endif /* tictactoe_hpp */
