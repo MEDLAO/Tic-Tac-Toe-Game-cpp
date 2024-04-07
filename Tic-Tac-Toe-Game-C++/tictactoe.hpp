@@ -15,5 +15,6 @@ bool is_winner();
 bool filledUp();
 void draw();
 void setPosition();
+void updateBoard();
 
 #endif /* tictactoe_hpp */
