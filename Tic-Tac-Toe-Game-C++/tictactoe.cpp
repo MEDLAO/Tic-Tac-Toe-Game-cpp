@@ -140,3 +140,38 @@ void updateBoard()
         board[position - 1] = "O";
     }
 }
+
+void changePlayer()
+{
+    if (player == 1)
+    {
+        player++;
+    }
+    else
+    {
+        player--;
+    }
+}
+
+void takeTurn()
+{
+    while (!isWinner() && !filledUp())
+    {
+        setPosition();
+        updateBoard();
+        changePlayer();
+        draw();
+    }
+}
+
+void endGame()
+{
+    if (isWinner())
+    {
+        cout << "There is a winner !" << endl;
+    }
+    else if (filledUp())
+    {
+        cout << "There is a tie !" << endl;
+    }
+}

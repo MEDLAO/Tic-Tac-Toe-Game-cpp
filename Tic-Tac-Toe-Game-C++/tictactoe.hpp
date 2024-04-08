@@ -11,10 +11,13 @@
 #include <stdio.h>
 
 void introduction();
-bool is_winner();
+bool isWinner();
 bool filledUp();
 void draw();
 void setPosition();
 void updateBoard();
+void changePlayer();
+void takeTurn();
+void endGame();
 
 #endif /* tictactoe_hpp */

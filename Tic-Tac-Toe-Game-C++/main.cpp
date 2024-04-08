@@ -13,6 +13,8 @@ using namespace std;
 int main(int argc, const char * argv[])
 {
     introduction();
+    takeTurn();
+    endGame();
     
     return 0;
 }
