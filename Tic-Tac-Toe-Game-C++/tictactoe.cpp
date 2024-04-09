@@ -9,7 +9,7 @@
 #include "tictactoe.hpp"
 // globally defined
 using namespace std;
-string board[9] = {"", "", "", "", "", "", "", "", ""};
+string board[9] = {" ", " ", " ", " ", " ", " ", " ", " ", " "};
 int player = 1;
 int position = 0;
 
@@ -113,12 +113,14 @@ void draw()
 void setPosition()
 {
     cout << "Player " << player << "'s (Enter : (1:9))";
-    while(!(cin>>position))
+    while (!(cin>>position))
     {
         cout << "Please enter  a valid number between (1-9)" << endl;
         cin.clear();
         cin.ignore();
     }
+    
+    cout << endl;
     
     while (board[position - 1] != " ")
     {
@@ -170,6 +172,7 @@ void endGame()
     {
         cout << "There is a winner !" << endl;
     }
+    
     else if (filledUp())
     {
         cout << "There is a tie !" << endl;
