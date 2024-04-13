@@ -28,6 +28,7 @@
 		BF3312402BB9C5080062B380 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BFFC3BEA2BBB07A700B27824 /* tictactoe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tictactoe.cpp; sourceTree = "<group>"; };
 		BFFC3BEB2BBB07A700B27824 /* tictactoe.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tictactoe.hpp; sourceTree = "<group>"; };
+		BFFC3BFB2BCAE29500B27824 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		BF3312342BB9C5080062B380 = {
 			isa = PBXGroup;
 			children = (
+				BFFC3BFB2BCAE29500B27824 /* README.md */,
 				BF33123F2BB9C5080062B380 /* Tic-Tac-Toe-Game-C++ */,
 				BF33123E2BB9C5080062B380 /* Products */,
 			);
