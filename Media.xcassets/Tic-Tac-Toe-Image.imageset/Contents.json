@@ -1,17 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "Tic-Tac-Toe-Image.png",
+      "filename" : "Tic-Tac-Toe-Image-Desert.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Tic-Tac-Toe-Image-Desert.png",
+      "filename" : "Tic-Tac-Toe-Image.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Tic-Tac-Toe-Image-Desert-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
